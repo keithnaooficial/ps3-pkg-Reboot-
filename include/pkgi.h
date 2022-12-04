@@ -5,7 +5,7 @@
 #include "pkgi_dialog.h"
 
 #define PKGI_UPDATE_URL     "https://api.github.com/repos/bucanero/pkgi-ps3/releases/latest"
-#define PKGI_VERSION        "1.2.2"
+#define PKGI_VERSION        "1.2.3"
 
 #define PKGI_BUTTON_SELECT 0x00010000
 #define PKGI_BUTTON_START  0x00080000
@@ -26,7 +26,7 @@
 
 #define PKGI_UNUSED(x) (void)(x)
 
-#define PKGI_APP_FOLDER "/dev_hdd0/game/NP00PKGI3/USRDIR"
+#define PKGI_APP_FOLDER "/dev_hdd0/game/NP00PKGR3/USRDIR"
 #define PKGI_RAP_FOLDER "/dev_hdd0/exdata"
 #define PKGI_TMP_FOLDER "/dev_hdd0/tmp/pkgi"
 #define PKGI_QUEUE_FOLDER "/dev_hdd0/vsh/task"
